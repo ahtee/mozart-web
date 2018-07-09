@@ -30,7 +30,7 @@ render() {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">mozart.go</NavbarBrand>
+        <NavbarBrand href="/"><i class="fab fa-megaport"></i> Mozart</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -38,22 +38,22 @@ render() {
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="https://github.com/zbblanton/mozart">GitHub</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Contributing
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                  Issues
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                  Features
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                  Wiki
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
