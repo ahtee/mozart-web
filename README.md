@@ -1,6 +1,6 @@
 # Mozart
 
-Find more information about [Mozart container orchestration](https://github.com/zbblanton/Mozart) tool.
+Find more information about [Mozart container orchestration](https://github.com/zbblanton/Mozart) tool. The informational site is built in [ReactJS](https://github.com/facebook/react) and uses tools like NodeJS and Babel for the http web server and for code linting.
 
 ## Installing
 
