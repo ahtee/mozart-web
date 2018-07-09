@@ -11,3 +11,5 @@ Run the code locally and open a web browser
 ```
 npm start
 ```
+
+You should be directed to `http://localhost:3000`
