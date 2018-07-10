@@ -4,24 +4,24 @@ import { Jumbotron, Card, CardTitle, CardSubtitle, CardBody, Button } from 'reac
 
 var cards = [
   {
-    title: "1",
+    title: "Title 1",
     subtitle: "Subtitle 1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     buttonText: "Learn More",
     buttonLink: "#"
   },
   {
-    title: "2",
+    title: "Title 2",
     subtitle: "Subtitle 2",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    buttonText: "Learn More",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    buttonText: "Download",
     buttonLink: "#"
   },
   {
-    title: "3",
+    title: "Title 3",
     subtitle: "Subtitle 3",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    buttonText: "Learn More",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    buttonText: "Contribute",
     buttonLink: "#"
   }
 ];

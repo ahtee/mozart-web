@@ -29,7 +29,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Nav">
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/"><i className="fab fa-megaport"></i> Mozart</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
@@ -47,14 +47,14 @@ class Navigation extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Issues
+                    <a href="https://github.com/zbblanton/mozart/issues">Issues</a>
                   </DropdownItem>
                   <DropdownItem>
-                    Features
+                    <a href="https://github.com/zbblanton/mozart/projects">Features</a>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Wiki
+                    <a href="https://github.com/zbblanton/mozart/wiki">Wiki</a>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
