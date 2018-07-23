@@ -11,7 +11,7 @@ COPY package*.json ./
 
 RUN npm install
 
-EXPOSE 8080, 3000
+EXPOSE 3000
 
 USER node
 
