@@ -12,10 +12,12 @@ Find more information about [Mozart container orchestration](https://github.com/
 - Clone the repo to your local machine using git: `git clone https://github.com/ahtee/mozart-web.git`
 - `cd mozart-web`
 
-Install packages and dependencies with yarn:
+If you prefer yarn, install packages and dependencies with yarn:
 ```
 yarn install
 ```
+
+Otherwise just run `npm install`
 
 Run the code locally and open a web browser:
 ```
