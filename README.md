@@ -1,4 +1,4 @@
-[![CircleCI](https://img.shields.io/circleci/project/github/ahtee/mozart-web.svg)](https://circleci.com/gh/ahtee/mozart-web)
+[![CircleCI](https://circleci.com/gh/ahtee/mozart-web.svg?style=shield)](https://circleci.com/gh/ahtee/mozart-web)
 [![Docker Build Status](https://img.shields.io/docker/build/ahtee/mozart-web-build.svg)](https://hub.docker.com/r/ahtee/mozart-web-build/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/zbblanton/mozart)](https://goreportcard.com/report/github.com/zbblanton/mozart)
 
