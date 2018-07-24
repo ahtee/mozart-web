@@ -13,3 +13,17 @@ npm start
 ```
 
 You should be directed to `http://localhost:3000`
+
+## Building and running in Docker
+
+Run the following commands to build and run the Dockerfile in a container
+
+```
+docker build -q -t <image name> .
+
+docker run -p 3000:3000 --rm --name=<container name> < image name>
+```
+
+Open your browser to `http://localhost:3000`
+
+Continue!
