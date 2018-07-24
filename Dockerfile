@@ -1,15 +1,14 @@
 # Dockerfile
 FROM node:8.11.3-alpine
 
-ENV NODE_VERSION 8.11.3
-
-# Create app directory
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-# Install app dependencies
-COPY package*.json ./
+COPY package.json /usr/src/app
 
-RUN npm install
+RUN npm install --production --quiet
+
+COPY . /usr/src/app
 
 EXPOSE 3000
 

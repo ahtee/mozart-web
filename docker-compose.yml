@@ -1,14 +1,15 @@
 # docker-compose
-version: "1"
+version: "2"
 services:
-	node: 
-		image: "node:8.11.3-alpine"
-		user: node
-		working_dir: /usr/src/app
-		environment:
-      	- NODE_ENV=production
-    	volumes:
-      	- ./:/usr/src/app
-    	expose:
-      	- "3000"
-    	command: "npm start"
+  web:
+    working_dir: /usr/src/app
+    build: .
+    command: npm run dev
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "3000:3000"
+    image: "node:8.11.3-alpine"
+    user: node
+    command: "npm start"
