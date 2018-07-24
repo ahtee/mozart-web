@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ahtee/mozart-web.svg?style=svg)](https://circleci.com/gh/ahtee/mozart-web) 
+[![CircleCI](https://img.shields.io/circleci/project/github/ahtee/mozart-web.svg)](https://circleci.com/gh/ahtee/mozart-web)
 ![Docker Build Status](https://img.shields.io/docker/build/ahtee/mozart-web-build.svg)
 
 
@@ -18,7 +18,7 @@ npm start
 
 You should be automatically directed to `http://localhost:3000` in your preferred browser.
 
-Any features contributed by you would require you to clone the repository, create your features or make your changes, test the code, and then submit a Pull Request to have your code reviewed for merging into the project. You can develop on the master branch, since this is a static website.
+Any features contributed by you would require you to clone the repository, create your features or make your changes, test the code, and then submit a Pull Request to have your code reviewed for merging into the project. You can develop on the master branch, as this is a static site.
 
 ## Building and running an image in Docker
 
