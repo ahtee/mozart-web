@@ -1,4 +1,6 @@
 [![CircleCI](https://circleci.com/gh/ahtee/mozart-web.svg?style=svg)](https://circleci.com/gh/ahtee/mozart-web) 
+![Docker Build Status](https://img.shields.io/docker/build/ahtee/mozart-web.svg)
+
 
 # Mozart
 
