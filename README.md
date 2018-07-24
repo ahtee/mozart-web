@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/ahtee/mozart-web.svg?style=svg)](https://circleci.com/gh/ahtee/mozart-web) 
+
 # Mozart
 
 Find more information about [Mozart container orchestration](https://github.com/zbblanton/Mozart) tool. The informational site is built in [ReactJS](https://github.com/facebook/react) and uses tools like NodeJS and Babel for the http web server and for code linting.
