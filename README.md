@@ -1,11 +1,14 @@
 [![CircleCI](https://circleci.com/gh/ahtee/mozart-web.svg?style=shield)](https://circleci.com/gh/ahtee/mozart-web)
 [![Docker Build Status](https://img.shields.io/docker/build/ahtee/mozart-web-build.svg)](https://hub.docker.com/r/ahtee/mozart-web-build/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zbblanton/mozart)](https://goreportcard.com/report/github.com/zbblanton/mozart)
+![GitHub contributors](https://img.shields.io/github/contributors/ahtee/mozart-web.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/ahtee/mozart-web.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ahtee/mozart-web.svg)
+
 
 
 # Mozart
 
-Find more information about [Mozart container orchestration](https://github.com/zbblanton/Mozart) tool. The informational site is built in [ReactJS](https://github.com/facebook/react) and uses tools like NodeJS and Babel for the http web server and for code linting. 
+Find more information about [Mozart container orchestration](https://github.com/zbblanton/Mozart) tool. The informational site is built in [ReactJS](https://github.com/facebook/react) and uses tools like NodeJS and Babel for the http web server and for code linting.
 
 ## Installing and contributing on your local environment
 

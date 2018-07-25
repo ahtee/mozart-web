@@ -23,6 +23,13 @@ var cards = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     buttonText: "Contribute",
     buttonLink: "#"
+  },
+  {
+    title: "Title 3",
+    subtitle: "Subtitle 3",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    buttonText: "Contribute",
+    buttonLink: "#"
   }
 ];
 
