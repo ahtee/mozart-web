@@ -1,0 +1,98 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:braces:20180219':
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.121Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+    - react-scripts > jest > jest-cli > jest-runtime > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > braces:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+  'npm:content-type-parser:20170905':
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+  'npm:eslint:20180222':
+    - react-scripts > eslint:
+        reason: None given
+        expires: '2018-08-25T13:47:04.122Z'
+patch: {}
