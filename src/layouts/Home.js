@@ -9,7 +9,7 @@ export default class Home extends Component {
     render() {
 
     return (
-      <div>
+      <div class="Home">
         <Jumbotron>
           <h1 className="display-3"><i className="fab fa-megaport"></i> Mozart</h1>
           <p className="lead">Container orchestration in Go</p>
