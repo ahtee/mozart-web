@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
 
-class Info extends Component {
+export default class Info extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -55,6 +55,3 @@ class Info extends Component {
     );
   }
 }
-
-
-export default Info;

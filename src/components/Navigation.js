@@ -30,7 +30,7 @@ export default class Navigation extends Component {
 
   render() {
     return (
-      <div className="Nav">
+      <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand tag={Link} to="/"><i className="fab fa-megaport"></i> Mozart</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
