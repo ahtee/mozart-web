@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mozart docs",
+  "name": "Mozart the go-to tool for container orchestration",
   "icons": [
     {
       "src": "favicon.ico",

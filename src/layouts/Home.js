@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button } from 'reactstrap';
 import Cards from '../components/Cards';
-import Info from '../components/Info';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Info from '../components/Info';
 import Navigation from '../components/Navigation';
 
 export default class Home extends Component {
@@ -11,11 +11,7 @@ export default class Home extends Component {
       return (
         <div class="Home">
           <Navigation />
-          <Jumbotron>
-            <h1 className="display-3"><i className="fab fa-megaport"></i> Mozart</h1>
-            <p className="lead">Container orchestration in Go</p>
-            <Button outline color="success">Get Started</Button>
-          </Jumbotron>
+          <Header />
           <Cards />
           <Info />
           <Footer />
