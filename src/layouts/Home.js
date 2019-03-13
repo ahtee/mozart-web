@@ -6,16 +6,15 @@ import Info from '../components/Info';
 import Navigation from '../components/Navigation';
 
 export default class Home extends Component {
-
-    render() {
-      return (
-        <div class="Home">
-          <Navigation />
-          <Header />
-          <Cards />
-          <Info />
-          <Footer />
-        </div> // App.js
-      );
+  render() {
+    return (
+      <div class="Home">
+        <Navigation />
+        <Header />
+        <Cards />
+        <Info />
+        <Footer />
+      </div> // App.js
+    );
   }
 }

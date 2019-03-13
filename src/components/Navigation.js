@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import {  Collapse,
-          Navbar,
-          NavbarToggler,
-          NavbarBrand,
-          Nav,
-          NavItem,
-          NavLink,
-          UncontrolledDropdown,
-          DropdownToggle,
-          DropdownMenu,
-          DropdownItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from 'reactstrap';
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -32,15 +34,21 @@ export default class Navigation extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand tag={Link} to="/"><i className="fab fa-megaport"></i> Mozart</NavbarBrand>
+          <NavbarBrand tag={Link} to="/">
+            <i className="fab fa-megaport" /> Mozart
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/components">Components</NavLink>
+                <NavLink tag={Link} to="/components">
+                  Components
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/zbblanton/mozart">GitHub</NavLink>
+                <NavLink href="https://github.com/zbblanton/mozart">
+                  GitHub
+                </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -48,10 +56,14 @@ export default class Navigation extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <a href="https://github.com/zbblanton/mozart/issues">Issues</a>
+                    <a href="https://github.com/zbblanton/mozart/issues">
+                      Issues
+                    </a>
                   </DropdownItem>
                   <DropdownItem>
-                    <a href="https://github.com/zbblanton/mozart/projects">Features</a>
+                    <a href="https://github.com/zbblanton/mozart/projects">
+                      Features
+                    </a>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
