@@ -7,7 +7,7 @@
 ![languages](https://img.shields.io/github/languages/count/ahtee/mozart-web.svg)
 ![docker build](https://img.shields.io/docker/cloud/automated/ahtee/mozart-web-build.svg)
 ![commit activity](https://img.shields.io/github/commit-activity/w/ahtee/mozart-web.svg?color=0)
-
+![MIT license](https://img.shields.io/github/license/ahtee/mozart-web.svg)
 
 # Mozart
 
