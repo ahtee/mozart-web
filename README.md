@@ -3,7 +3,10 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/ahtee/mozart-web.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ahtee/mozart-web.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ahtee/mozart-web.svg)
-
+![dependencies](https://img.shields.io/david/ahtee/mozart-web.svg)
+![languages](https://img.shields.io/github/languages/count/ahtee/mozart-web.svg)
+![docker build](https://img.shields.io/docker/cloud/automated/ahtee/mozart-web-build.svg)
+![commit activity](https://img.shields.io/github/commit-activity/w/ahtee/mozart-web.svg?color=0)
 
 
 # Mozart
