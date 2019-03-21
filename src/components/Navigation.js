@@ -26,11 +26,13 @@ export default class Navigation extends Component {
 
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: prevState => ({ isOpen: !prevState.value })
     });
   }
 
   render() {
+    const { isOpen } = this.state;
+
     return (
       <div>
         <Navbar color="light" light expand="md">
@@ -38,7 +40,7 @@ export default class Navigation extends Component {
             <i className="fab fa-megaport" /> Mozart
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink tag={Link} to="/components">

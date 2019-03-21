@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import { Card, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 
 export default class Cards extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   static defaultProps = {
     cards: [
       {
@@ -19,9 +14,15 @@ export default class Cards extends Component {
     ]
   };
 
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
-    const c = this.props.cards;
-    const MozartCards = c.map(card => (
+    const { cards } = this.props;
+
+    const MozartCards = cards.map(card => (
       <div className="col-md-4 col-sm-12">
         <Card body outline color="primary">
           <CardBody className="card-body">

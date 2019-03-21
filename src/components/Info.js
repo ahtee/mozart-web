@@ -8,8 +8,8 @@ export default class Info extends Component {
   }
 
   render() {
-    const i = this.props.infos;
-    const MozartInfo = i.map(info => (
+    const { infos } = this.props;
+    const MozartInfo = infos.map(info => (
       <Media className="mt-4">
         <Media left href={info.picLink}>
           <Media object src={info.pic} alt={info.alt} />
