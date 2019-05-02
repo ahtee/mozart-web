@@ -5,12 +5,12 @@ import Home from './layouts/Home';
 
 function App() {
   return (
-    <div>
+    <>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/components" />
       </Switch>
-    </div>
+    </>
   );
 }
 
