@@ -2,16 +2,22 @@ import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header(props) {
+  const { title, subTitle } = props;
+
   return (
-    <Jumbotron>
-      <h1 className="display-3">
-        <i className="fab fa-megaport" /> Mozart
-      </h1>
-      <p className="lead">Container orchestration in Go</p>
-      <Button outline color="success" tag={Link} to="/">
-        Get Started
-      </Button>
+    <Jumbotron
+      style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}
+    >
+      <div>
+        <h1 className="display-3">
+          <i className="fab fa-megaport" /> {title}
+        </h1>
+        <p className="lead">{subTitle}</p>
+        <Button outline color="success" tag={Link} to="/components">
+          Get Started
+        </Button>
+      </div>
     </Jumbotron>
   );
 }

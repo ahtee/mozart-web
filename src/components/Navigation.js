@@ -32,12 +32,13 @@ export default class Navigation extends Component {
 
   render() {
     const { isOpen } = this.state;
+    const { title } = this.props;
 
     return (
       <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand tag={Link} to="/">
-            <i className="fab fa-megaport" /> Mozart
+            <i className="fab fa-megaport" /> {title}
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={isOpen} navbar>
