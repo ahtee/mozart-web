@@ -14,7 +14,12 @@ function Header(props) {
           <i className="fab fa-megaport" /> {title}
         </h1>
         <p className="lead">{subTitle}</p>
-        <Button outline color="success" tag={Link} to="/components">
+        <Button
+          outline
+          color="success"
+          tag={Link}
+          to={`${process.env.PUBLIC_URL}/components`}
+        >
           Get Started
         </Button>
       </div>

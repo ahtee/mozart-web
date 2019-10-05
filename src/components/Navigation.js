@@ -44,7 +44,7 @@ export default class Navigation extends Component {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/components">
+                <NavLink tag={Link} to={`${process.env.PUBLIC_URL}/components`}>
                   Components
                 </NavLink>
               </NavItem>
