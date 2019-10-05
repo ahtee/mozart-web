@@ -18,7 +18,7 @@ function Header(props) {
           outline
           color="success"
           tag={Link}
-          to={`${process.env.PUBLIC_URL}/components`}
+          to={`${process.env.PUBLIC_URL}/mozart/components`}
         >
           Get Started
         </Button>

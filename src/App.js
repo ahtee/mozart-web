@@ -17,8 +17,15 @@ function App() {
     <Router history={history}>
       <Navigation title="Mozart" />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/components" component={Components} />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/mozart`}
+          component={Home}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/mozart/components`}
+          component={Components}
+        />
         <Route component={NotFound} />
       </Switch>
       <Footer />

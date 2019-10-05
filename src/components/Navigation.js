@@ -37,14 +37,17 @@ export default class Navigation extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand tag={Link} to="/">
+          <NavbarBrand tag={Link} to="/mozart">
             <i className="fab fa-megaport" /> {title}
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to={`${process.env.PUBLIC_URL}/components`}>
+                <NavLink
+                  tag={Link}
+                  to={`${process.env.PUBLIC_URL}/mozart/components`}
+                >
                   Components
                 </NavLink>
               </NavItem>
