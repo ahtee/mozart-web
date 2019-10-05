@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ahtee/mozart-web.svg?style=shield)](https://circleci.com/gh/ahtee/mozart-web)
+![CodeBuild](https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoibXZNMjMvRmppTzBkdTRoT2pFcnAwRzB0UExPcnBoV1BsTWk4U0FBSkdtUG1oUU9uN0h6a1FGZ3dsSDM2aC82KzkyaUtlWVRzWVA5QmdjQ3BJa3VjZ2xjPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBndmNVSy8zMUM3Y2VDQ1IiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 [![Docker Build Status](https://img.shields.io/docker/build/ahtee/mozart-web-build.svg)](https://hub.docker.com/r/ahtee/mozart-web-build/)
 ![GitHub contributors](https://img.shields.io/github/contributors/ahtee/mozart-web.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ahtee/mozart-web.svg)
@@ -19,6 +19,7 @@ Find more information about [Mozart container orchestration](https://github.com/
 - `cd mozart-web`
 
 If you prefer yarn, install packages and dependencies with yarn:
+
 ```
 yarn install
 ```
@@ -26,6 +27,7 @@ yarn install
 Otherwise just run `npm install`
 
 Run the code locally and open a web browser:
+
 ```
 npm start
 ```
