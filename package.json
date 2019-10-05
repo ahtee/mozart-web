@@ -1,7 +1,7 @@
 {
   "name": "mozart-web",
   "version": "0.2.0",
-  "homepage": "/mozart/",
+  "homepage": "https://otte.io/mozart/",
   "private": false,
   "dependencies": {
     "bootstrap": "^4.3.1",

@@ -14,16 +14,12 @@ export const history = createBrowserHistory({
 
 function App() {
   return (
-    <Router history={history}>
+    <Router history={history} basename="/mozart">
       <Navigation title="Mozart" />
       <Switch>
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
         <Route
-          exact
-          path={`${process.env.PUBLIC_URL}/mozart`}
-          component={Home}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL}/mozart/components`}
+          path={`${process.env.PUBLIC_URL}/components`}
           component={Components}
         />
         <Route component={NotFound} />
