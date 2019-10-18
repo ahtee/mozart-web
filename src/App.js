@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/mozart">
+    <Router>
       <Navigation title="Mozart" />
       <Switch>
         <Route exact path="/" component={Home} />
